@@ -20,21 +20,21 @@ int main(){
             switch(user_input){
 
                 case 1:
-                    printf("The sum is: %d\n", Addition(&answer));
+                    printf("\nThe sum is: %d\n", Addition(&answer));
                         break;
                         
 
                 case 2:
-                    printf("The difference is: %d\n", Subtraction(&answer));
+                    printf("\nThe difference is: %d\n", Subtraction(&answer));
                         break;
 
                 case 3:
-                    printf("The product is: %d\n", Multiplication(&answer));
+                    printf("\nThe product is: %d\n", Multiplication(&answer));
                         break;
 
                 case 4:
                     Division(&q, &r);
-                    printf("The quotient is: %.2f\n", q);
+                    printf("\nThe quotient is: %.2f\n", q);
                     printf("And the remainder is: %.2f\n", r);
                         break;
 
@@ -65,7 +65,7 @@ int Addition(int *sum){
         printf("-----> ");
             scanf("%d", &a1);
 
-        printf("\nPlease Enter your second addend\n");
+        printf("Please Enter your second addend\n");
         printf("-----> ");
             scanf("%d", &a2);
 
@@ -80,7 +80,7 @@ int Subtraction(int *diff){
         printf("-----> ");
             scanf("%d", &s1);
 
-        printf("\nPlease Enter your Subtrahend\n");
+        printf("Please Enter your Subtrahend\n");
         printf("-----> ");
             scanf("%d", &s2);
 
@@ -95,7 +95,7 @@ int Multiplication(int *pro){
         printf("-----> ");
             scanf("%d", &m1);
 
-        printf("\nPlease Enter your Multiplier\n");
+        printf("Please Enter your Multiplier\n");
         printf("-----> ");
             scanf("%d", &m2);
 
@@ -110,7 +110,7 @@ float Division(float *quo, float *remain){
         printf("-----> ");
             scanf("%d", &d1);
 
-        printf("\nPlease Enter Divisor\n");
+        printf("Please Enter Divisor\n");
         printf("-----> ");
             scanf("%d", &d2);
 
