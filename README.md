@@ -1,4 +1,4 @@
-# Console-Calculator-With-Pointers
+# Console Calculator ⭐
 A Console Calculator written in C, but with the use of Pointers make it more complex than ever.
 One way to learn is to overcomplicate things.
 
